@@ -1,0 +1,103 @@
+/* Basic */
+
+body {
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #fff;
+line-height: 1.5;
+}
+
+h2, h3 {
+    color: #2E2F42;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
+}
+
+h3 {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+
+ul {
+list-style-type: none;
+}
+
+a {
+text-decoration: none;
+font-style: normal;
+color: inherit;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+.accent {
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.nav-menu {
+    font-weight: 500;
+}
+
+.nav-text:hover,
+.nav-text:active,
+.contacts-text:hover,
+.contacts-text:focus {
+    color: #404bbf;;
+}
+
+.nav-text:active {
+    text-decoration: underline;
+}
+
+/* Hero section */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+}
+
+.hero-btn {
+    background-color: #4D5AE5;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #404bbf;
+}
+
+/* Benefits */
+
+/* Team */
+
+.our-team-section {
+    background-color: #f4f4fd;
+}
+
+/* Portfolio */
+
+/* Footer */
+
+.footer {
+    background-color: #2E2F42;
+    color: #f4f4fd;
+}
