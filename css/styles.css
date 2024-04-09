@@ -1,86 +1,104 @@
 /* Basic */
-
+/* Завантажувати шрифти через @font-face ??? */
 body {
-font-family: "Roboto", sans-serif;
-color: #434455;
-background-color: #fff;
-line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  /* Перевірити відображення 2 шрифту чи потрібен raleway*/
+  color: #434455;
+  background-color: #fff;
+  line-height: 1.5;
 }
-
+/* перевірити наяність letter-spacing */
 h2 {
-    font-size: 36px;
-    text-align: center;
-    line-height: 1.11;
-    color: #2E2F42;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.11;
+  color: #2e2f42;
 }
 
 h3 {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 
 ul {
-list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-text-decoration: none;
-font-style: normal;
-color: inherit;
+  text-decoration: none;
+  /* font-style: normal; */
+  color: inherit;
 }
 
+/* Але для посилань зазвичай використовується ключове слово currentColor (поточний колір). Додамо цю властивість у попередній приклад. Мета — щоб колір тексту посилання успадковувався від секції.
+.post-link {
+  color: currentColor;
+}
+} */
+
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 /* Header */
 
 .accent {
-    color: #4D5AE5;
-    text-transform: uppercase;
+  color: #4d5ae5;
+  text-transform: uppercase;
 }
 
 .nav-menu {
-    font-weight: 500;
+  font-weight: 500;
 }
 
-.nav-text:hover,
+/* .nav-text:hover,
 .nav-text:active,
+.nav-text:focus,
 .contacts-text:hover,
+.contacts-text:active,
 .contacts-text:focus {
-    color: #404bbf;;
-}
+  color: #404bbf;
+
+  .nav-menu > li ???????????
+  .header-contacts > a ?????????
+
+  .nav-menu .nav-text:focus
+  .header-contacts .contacts-text:hover
+
+  чи потрібен active?
+  передивитися УСІ активні стани на посилання (ховер/фокус, чи потрібно)
+} */
 
 .nav-text:active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Hero section */
 
 .hero-section {
-    background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .hero-title {
-    color: #fff;
-    font-size: 56px;
-    text-align: center;
-    line-height: 1.07;
+  color: #fff;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
 }
 
 .hero-btn {
-    background-color: #4D5AE5;
-    color: #fff;
-    font-weight: 500;
-    cursor: pointer;
+  background-color: #4d5ae5;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .hero-btn:hover {
-    background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* Benefits */
@@ -88,7 +106,7 @@ color: inherit;
 /* Team */
 
 .our-team-section {
-    background-color: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 /* Portfolio */
@@ -96,6 +114,6 @@ color: inherit;
 /* Footer */
 
 .footer {
-    background-color: #2E2F42;
-    color: #f4f4fd;
+  background-color: #2e2f42;
+  color: #f4f4fd;
 }
