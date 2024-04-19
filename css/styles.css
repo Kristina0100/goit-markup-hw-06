@@ -142,11 +142,8 @@ button {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2e2f42;
-}
-
-.page-hero {
   padding: 188px 0;
+  background-color: #2e2f42;
 }
 
 .hero-title {
