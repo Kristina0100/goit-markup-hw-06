@@ -66,6 +66,11 @@ button {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* Header */
 
 .header-section {
@@ -91,12 +96,13 @@ button {
 
 .nav-menu {
   display: flex;
-  gap: 40px;
+  column-gap: 40px;
+  margin-left: auto;
 }
 
 .contacts-list {
   display: flex;
-  gap: 40px;
+  column-gap: 40px;
 }
 
 .header-logo {
@@ -133,12 +139,18 @@ button {
 /* Hero section */
 
 .hero-section {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2e2f42;
 }
 
+.page-hero {
+  padding: 188px 330px;
+}
+
 .hero-title {
+  max-width: 496px;
   margin-bottom: 48px;
   color: #ffffff;
   font-size: 56px;
@@ -149,6 +161,8 @@ button {
 
 .hero-btn {
   display: block;
+  min-width: 169px;
+  height: 56px;
   font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -168,11 +182,6 @@ button {
 }
 
 /* Benefits */
-
-.benefits-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .benefit-item {
   width: calc((100% - 72px) / 4);
@@ -208,8 +217,6 @@ button {
 }
 
 .our-team-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
@@ -230,11 +237,6 @@ button {
 }
 
 /* Portfolio */
-
-.portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .portfolio-card {
   width: calc((100% - 48px) / 3);
@@ -262,14 +264,8 @@ button {
   background-color: #2e2f42;
 }
 
-/* .footer-descr {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-} */
-
 .footer-text {
-  margin-top: 0;
+  max-width: 264px;
   color: #f4f4fd;
 }
 

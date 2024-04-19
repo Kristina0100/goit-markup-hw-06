@@ -1,2 +1,3 @@
-# goit-markup-hw-01
-HW1, M1 (HTML), Kristina Humeniuk
+# goit-markup-hw-03
+
+HW3, M3 (CSS), Kristina Humeniuk
