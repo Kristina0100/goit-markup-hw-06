@@ -69,31 +69,38 @@ button {
 /* Header */
 
 .header-section {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
-.nav-menu {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
+.nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   color: #2e2f42;
 }
 
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
 .header-logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -118,15 +125,9 @@ button {
   text-decoration: underline;
 }
 
-.contacts-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-
 .header-contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 /* Hero section */
