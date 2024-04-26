@@ -338,7 +338,7 @@ button {
   padding: 32px 16px;
 }
 
-.card-box {
+.card-overlay {
   position: relative;
   overflow: hidden;
 }
