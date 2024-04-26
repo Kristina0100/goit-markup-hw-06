@@ -74,6 +74,7 @@ button {
 /* Header */
 
 .header-section {
+  position: relative;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -92,6 +93,9 @@ button {
   padding: 24px 0;
   font-weight: 500;
   color: #2e2f42;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-menu {
@@ -120,11 +124,33 @@ button {
   color: #2e2f42;
 }
 
+.contacts-link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+}
+
+.studio-test {
+  /* position: relative; */
+}
+
+.studio-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  display: block;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
 }
 
 .nav-link:active {
@@ -144,6 +170,15 @@ button {
   margin-right: auto;
   padding: 188px 0;
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero_/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -173,6 +208,9 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -181,6 +219,18 @@ button {
 }
 
 /* Benefits */
+
+.box-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+}
 
 .benefit-item {
   width: calc((100% - 72px) / 4);
@@ -227,8 +277,8 @@ button {
   background-color: #ffffff;
 }
 
-.member-text {
-  padding: 32px 0;
+.member-content {
+  padding: 32px 16px;
 }
 
 .card-title,
@@ -236,10 +286,49 @@ button {
   text-align: center;
 }
 
+.card-text {
+  margin-bottom: 8px;
+}
+
+.member-socials {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.circle-icon:hover,
+.circle-icon:focus {
+  background-color: #404bbf;
+}
+
 /* Portfolio */
 
 .portfolio-card {
   width: calc((100% - 48px) / 3);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-card:hover,
+.portfolio-card:focus {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-works {
@@ -256,6 +345,30 @@ button {
   padding: 32px 16px;
 }
 
+.card-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  background: #4d5ae5;
+  color: #f4f4fd;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-card:hover .overlay {
+  transform: translateY(0);
+}
+
 /* Footer */
 
 .footer-section {
@@ -267,6 +380,43 @@ button {
 .footer-text {
   max-width: 264px;
   color: #f4f4fd;
+}
+
+.footer-flex {
+  display: flex;
+  gap: 120px;
+}
+
+.socials-text {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-socials-icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-circle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-circle-icon:hover,
+.footer-circle-icon:focus {
+  background-color: #31d0aa;
 }
 
 .footer-logo {
