@@ -465,7 +465,49 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <p class="subscribe-text">Subscribe</p>
+          <div class="footer-btn-input">
+            <input
+              class="footer-email"
+              type="email"
+              name="subscribe-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-btn-submit">
+              Subscribe
+              <svg class="btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
+    <div class="modal-backdrop">
+      <div class="modal">
+        <p class="modal-form-text">
+          Leave your contacts and we will call you back
+        </p>
+        <label for="user-name">Name</label>
+        <input type="text" name="user-name" id="user-name" />
+        <label for="user-tel">Phone</label>
+        <input type="tel" name="user-tel" id="user-tel" />
+        <label for="user-mail">Email</label>
+        <input type="mail" name="user-mail" id="user-mail" />
+        <label for="user-comment">Comment</label>
+        <textarea
+          class="user-comment-text"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Text input"
+        ></textarea>
+        <p>
+          I accept the terms and conditions of the
+          <a href="#">Privacy Policy</a>
+        </p>
+        <button type="submit" class="modal-btn">Send</button>
+      </div>
+    </div>
   </body>
 </html>
