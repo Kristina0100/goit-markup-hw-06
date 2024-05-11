@@ -45,6 +45,11 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -64,7 +69,7 @@
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Strategy</h3>
+              <h3 class="benefit-title">Strategy</h3>
               <p class="benefit-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -76,7 +81,7 @@
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Punctuality</h3>
+              <h3 class="benefit-title">Punctuality</h3>
               <p class="benefit-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -88,7 +93,7 @@
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Diligence</h3>
+              <h3 class="benefit-title">Diligence</h3>
               <p class="benefit-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -100,7 +105,7 @@
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Technologies</h3>
+              <h3 class="benefit-title">Technologies</h3>
               <p class="benefit-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -288,7 +293,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio-section section" id="portfolio">
+      <section class="portfolio-section section hidden" id="portfolio">
         <div class="container">
           <h2 class="heading">Our Portfolio</h2>
           <ul class="portfolio-works">
@@ -421,7 +426,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer-section" id="footer">
+    <footer class="footer-section hidden" id="footer">
       <div class="container footer-flex">
         <div class="footer-logo-text">
           <a class="footer-logo" href="./index.html"
@@ -486,11 +491,11 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop hidden">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="close-btn-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-form-text">
@@ -578,6 +583,66 @@
           </div>
           <button type="submit" class="modal-form-btn">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-menu hidden">
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-btn">
+          <svg class="close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-menu">
+            <li><a class="" href="./index.html">Studio</a></li>
+            <li><a class="" href="#portfolio">Portfolio</a></li>
+            <li><a class="" href="#footer">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="mob-menu-contacts">
+          <ul class="mob-contacts-list">
+            <li>
+              <a class="mob-contacts-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="mob-contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mob-menu-socials">
+          <li class="mob-social-item">
+            <a class="circle-icon" href="#">
+              <svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-item">
+            <a class="circle-icon" href="#">
+              <svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-item">
+            <a class="circle-icon" href="#">
+              <svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-item">
+            <a class="circle-icon" href="#">
+              <svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
