@@ -45,7 +45,7 @@ input {
   font-family: inherit;
 } */
 
-.heading {
+/* .heading {
   margin-top: 0;
   margin-bottom: 72px;
   font-size: 36px;
@@ -64,7 +64,7 @@ input {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
+} */
 
 /* .container {
   width: 1158px;
@@ -72,10 +72,10 @@ input {
   margin: 0 auto;
 } */
 
-.section {
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 
 /* Header */
 
@@ -258,7 +258,7 @@ input {
 
 /* Team */
 
-.team-list {
+/* .team-list {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
@@ -294,9 +294,9 @@ input {
   gap: 24px;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.circle-icon {
+/* .circle-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -311,11 +311,11 @@ input {
 .circle-icon:hover,
 .circle-icon:focus {
   background-color: #404bbf;
-}
+} */
 
 /* Portfolio */
 
-.portfolio-card {
+/* .portfolio-card {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
@@ -363,11 +363,11 @@ input {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background: #4d5ae5;
   color: #f4f4fd;
-}
+} */
 
 /* Footer */
 
-.footer-section {
+/* .footer-section {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #2e2f42;
@@ -493,7 +493,7 @@ input {
 
 .footer-email::placeholder {
   color: #ffffff;
-}
+} */
 
 /* MODAL */
 

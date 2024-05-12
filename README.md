@@ -1,3 +1,3 @@
-# goit-markup-hw-04
+# goit-markup-hw-06
 
-HW4, M4 (CSS), Kristina Humeniuk
+HW6, M6 (CSS), Kristina Humeniuk
